@@ -100,6 +100,10 @@ nav ul,li, a{
 #tan{
   margin-left: 45%;
 }
+.debate{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
 .unity{
   margin-left: 35%;
 }
@@ -107,4 +111,12 @@ nav ul,li, a{
   display: flex;
   justify-content: space-between;
   background-color: purple;
+}
+
+@media only screen and (max-width:1000px) and (min-height:800px){
+  .bike{
+      display: grid;
+      grid-template-columns:repeat(1,1fr) ;
+  }
+
 }
