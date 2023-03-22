@@ -1,0 +1,177 @@
+#head{
+    /* margin-left: 40%; */
+    text-align: center;
+    background-color: skyblue;
+    color: palevioletred;
+    }
+    nav{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          /* width: 50%; */
+          margin-left: 30%;
+          color: black;
+    }
+    nav ul{
+          list-style-type: none;
+          text-align: center;
+          padding: 0, 10px;
+    }
+    nav ul,li, a{
+             text-transform: capitalize;
+             display: flex;
+             padding: 15px;
+    }
+    .box{
+        width: 300px;
+        height: 50px;
+        background-color: white;
+        border-radius: 30px;
+        align-items: center;
+        padding: 5px;
+        margin-left: 5%;
+    }
+    .box > i{
+        font-size: 20px;
+    }
+    .box > input{
+        flex: 1;
+        height: 40px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .love{
+        background-color:skyblue;
+        margin-top: -4.5%;
+        padding:5px 10px;
+        /* margin: 20px 10px; */
+        display: flex;
+        justify-content: space-between;
+    }
+    #cathy{
+        border-radius: 30px;
+        width: 200px;
+    }
+    .ride{
+        border: solid;
+        width: 18%;
+        margin-left: 5%;
+        margin-top: 3%;
+        border-color: grey;
+    }
+    #pics{
+        margin-right: 10%;
+    }
+    #pics2{
+        margin-right: 5%;
+    }
+    .series{
+        margin-left:20%;
+    }
+    .price{
+        margin-left:20%;
+    }
+    .gender{
+        margin-left:20%;
+    }
+    .age{
+        margin-left:20%;
+    }
+    /* .maps{
+        background-color: black;
+        padding: 20px;
+    } */
+    #img{
+       margin-left: 40%;
+       height: 50px;
+    }
+    .rating {
+        color:skyblue;
+    }
+    .dog{
+        margin-right: 30%;
+        padding-left: 40%;
+        font-size: 30px;
+        color:purple;
+        border-radius: 10px;
+    }
+    .tannin{
+        margin-left: 40%;
+        background-color: aqua;
+        color: black;
+        font-size: 20px;
+    }
+    #cotton1{
+        border-radius: 10px;
+        width: 40px;
+        background-color: yellow;
+    }
+    #cotton2{
+        border-radius: 10px;
+        width: 40px;
+        background-color: yellow;
+    }
+    .book{
+        display: flex;
+        margin-left: 25%;
+        justify-content: space-between;
+        margin-top: -65%;
+    }
+    .cycle{
+        display: flex;
+        margin-left: 25%;
+        justify-content: space-between;
+    }
+    .cook{
+        display: flex;
+        margin-left: 25%;
+        justify-content: space-between;
+    }
+    .TIGERS{
+        display: flex;
+        margin-left: 25%;
+        justify-content: space-between;
+
+    }
+    .LEOPARD{
+        display: flex;
+        margin-left: 25%;
+        justify-content: space-between;
+    }
+
+    .bike{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .britah{
+        display: flex;
+        justify-content: space-between;
+        background-color:blueviolet;
+      }
+
+
+      @media only screen and (max-width:1000px) and (min-height:800px){
+        .bike{
+            display: grid;
+            grid-template-columns:repeat(1,1fr) ;
+        }
+        
+        /* .ride{
+            background-color: skyblue;
+        }
+        .cycle{
+            background-color: skyblue;
+        } */
+    
+      }
+
+      /* small devices(landscape phones,576px and up) */
+/* @media (min-width:576px){} */
+/* medium devces(tablets,768px and up) */
+/* @media (min-width:768px){} */
+/* large devices(desktops,992px and up) */
+/* @media (min-width:992px){} */
+/* Extra large devices(large desktops,1200px and up) */
+/* @media (min-width:1200px){} */
