@@ -6,6 +6,10 @@ nav{
     margin-left: 40%;
     color: black;
 }
+/* body{
+  background-color: aqua;
+  width: 250px;
+} */
 nav ul{
     list-style-type: none;
     text-align: center;
