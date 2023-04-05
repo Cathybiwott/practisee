@@ -110,26 +110,26 @@ nav ul,li,a {
 .checked {
   color: orange;
 }
-.kaa {
+.control {
   margin-left: 15px;
 }
-.daa {
+.load {
   margin-left: 25%;
   margin-top: -22%;
 }
-.gaa {
+.goal {
   margin-left: 50%;
   margin-top: -24%;
 }
-.laa {
+.lock {
   margin-left: 80%;
   margin-top: -23%;
 }
-#vee {
+#vent {
   margin-left: 10%;
   margin-top: -3.5%;
 }
-#veee {
+#view {
   margin-left: 8%;
   margin-top: -2.8%;
 }
@@ -147,7 +147,7 @@ nav ul,li,a {
   border-radius: 10px;
   background-color: rgb(233, 10, 84);
 }
-.nkatha {
+.Mary {
   display: flex;
   justify-content: space-between;
   background-color: purple;
