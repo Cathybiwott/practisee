@@ -21,8 +21,10 @@ nav ul,li,a {
   padding: 15px;
 }
 #catlog {
-  border-radius: 30px;
-  width: 200px;
+  /* border-radius: 30px; */
+  width: 60px;
+  height: 30px;
+  margin-right: 40%;
 }
 .boxs {
   width: 300px;
